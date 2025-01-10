@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+
+.todo-wrapper{
+    margin-top: 50px;
+    background-color: #dfc3c2;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-weight: 250;
+}
+
+.todo-wrapper h1{
+    margin: 0;
+    color: #181f39;
+}
+
+.todo-wrapper p{
+    font-style: italic;
+    color: #5c5c78;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol{
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li{
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper form{
+    display: inline-block;
+}
+
+.todo-wrapper input{
+    padding: 3px 5px;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+button{
+    margin: 10px 5px;
+    padding: 6px;
+    width: 55px;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    background-color: #5c5c78;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
